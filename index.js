@@ -10,3 +10,6 @@ function increaseRankBy(n){
     list[i].innerHTML = (parseInt(list[i].innerHTML)+n).toString()
   }
 }
+function deepestChild(){
+  return document.getElementById("app").querySelectorAll("div.grand-node div div div div")
+}
